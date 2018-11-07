@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "Node.js Sonos Interface",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "lint": "standard",
     "test": "npm run lint && mocha test/sonos.test.js --exit --timeout 10000",
